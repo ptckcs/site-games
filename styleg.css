@@ -33,6 +33,7 @@
 
 .container {
     padding: 10px 200px;
+    background-color: rgba(128, 128, 128, 0.184);
 }
 
 .content {
@@ -40,15 +41,30 @@
 
 }
 
-.imgcontent2 {
-    max-width: 700px;
-    max-height: 700px;
+.img-item {
+    width: 480px;
+    height: 300px;
+    margin: 06px;
     border-radius: 10px;
-    border-style: solid;
-    margin-top: 20px;
+    border: solid 1px;
+    background-color: rgba(128, 128, 128, 0.334);
+
+}
+
+.img-item2 {
+    width: 700px;
+    height: 260px;
+    border-radius: 10px;
+    border: solid 1px;
+    margin-top: 14px;
     margin-right: 10px;
     float: left;
+    background-color: rgba(128, 128, 128, 0.334);
 
+}
+
+.float-right {
+    float: right;
 }
 
 .title {
@@ -58,19 +74,6 @@
 
 }
 
-.img-item {
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
-    margin: 14px;
-    border-style: solid;
-
-}
-
-.float-right {
-    float: right;
-}
-
 .row {
     display: flex;
     justify-content: space-between;
@@ -78,16 +81,17 @@
 }
 
 .card {
-    border-radius: 10px;
+    border-radius: 8px;
     border-style: solid;
     width: 300px;
     max-height: fit-content;
-
+    background-color: rgba(0, 0, 0, 0.09);
+    
 }
 
 .card-img {
     width: 100%;
-    max-height: 60%;
+    max-height: 24%;
     aspect-ratio: 1/1;
 
 }
