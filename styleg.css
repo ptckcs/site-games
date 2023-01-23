@@ -42,7 +42,7 @@
 }
 
 .img-item {
-    width: 480px;
+    width: 500px;
     height: 300px;
     margin: 06px;
     border-radius: 10px;
@@ -52,7 +52,7 @@
 }
 
 .img-item2 {
-    width: 742px;
+    width: 780px;
     height: 260px;
     border-radius: 10px;
     border: solid 1px;
@@ -71,6 +71,7 @@
     font-size: 42px;
     font-weight: bold;
     text-overflow: ellipsis;
+    margin-bottom: 20px;
 
 }
 
@@ -82,7 +83,7 @@
 
 .card {
     border-radius: 8px;
-    border-style: solid;
+    border: solid 1px;
     width: 300px;
     max-height: fit-content;
     background-color: rgba(0, 0, 0, 0.09);
@@ -114,6 +115,33 @@
     font-size: 18px;
     text-align: justify;
     
+}
+
+
+.content2 {
+    margin-top: 80px;
+
+}
+
+.titleps2 {
+    font-size: 42px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+}
+
+.card-text2 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.fatps2 {
+    margin-top: 0px;
+    max-width: 500px;
+    border: solid 1px;
+    border-radius: 10px;
+    float: right;
+
 }
 
 
