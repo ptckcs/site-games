@@ -53,11 +53,11 @@
 }
 
 .img-item2 {
-    width: 780px;
-    height: 260px;
+    width: 590px;
+    height: 240px;
     border-radius: 10px;
     border: solid 1px;
-    margin-top: 14px;
+    margin-top: 4px;
     margin-right: 10px;
     float: left;
     background-color: rgba(128, 128, 128, 0.334);
@@ -115,7 +115,7 @@
 
 .card-text {
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
     
 }
 
@@ -149,13 +149,22 @@
 .slimps2 {
     float: left;
     margin-right: 10px;
-    max-width: 300px;
+    max-width: 500px;
     border-radius: 10px;
     border: solid 1px;
     background-color: rgba(128, 128, 128, 0.334);
     
 }
 
+.adapter {
+    max-width: 240px;
+    float: right;
+    border-radius: 10px;
+    border: solid 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(128, 128, 128, 0.334);
+}
 
 
 
