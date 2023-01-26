@@ -135,6 +135,7 @@
 .fatps2 {
     background-color: rgba(128, 128, 128, 0.334);
     margin-top: 0px;
+    margin-left: 10px;
     max-width: 500px;
     border: solid 1px;
     border-radius: 10px;
