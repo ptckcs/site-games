@@ -73,36 +73,6 @@
     float: right;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-
-}
-
-.card {
-    border-radius: 8px;
-    border: solid 1px;
-    width: 300px;
-    max-height: fit-content;
-    background-color: rgba(0, 0, 0, 0.09);
-    
-}
-
-.card-img {
-    width: 100%;
-    max-height: 24%;
-    aspect-ratio: 1/1;
-
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-
-}
-
 .title {
     font-size: 40px;
     font-weight: bold;
@@ -115,7 +85,6 @@
     font-size: 18px;
     
 }
-
 
 .fatps2 {
     background-color: rgba(128, 128, 128, 0.334);
@@ -135,11 +104,16 @@
 .slimps2 {
     float: left;
     margin-right: 10px;
-    max-width: 500px;
+    max-width: 300px;
     border-radius: 10px;
     border: solid 1px;
     background-color: rgba(128, 128, 128, 0.334);
     
+}
+
+.adapternet {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .adapter {
@@ -147,9 +121,13 @@
     float: right;
     border-radius: 10px;
     border: solid 1px;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 10px;
     background-color: rgba(128, 128, 128, 0.334);
+}
+
+.content3 {
+    margin-top: 100px;
 }
 
 .fatps3 {
@@ -162,10 +140,38 @@
 }
 
 .title-p {
+    background-color: #002407;
     font-size: 40px;
     font-weight: bold;
     margin-top: 80px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 
+}
 
+.card {
+    border-radius: 8px;
+    border: solid 1px;
+    width: 300px;
+    max-height: fit-content;
+    background-color: rgba(0, 0, 0, 0.09);
+    
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.card-img {
+    width: 100%;
+    max-height: 24%;
+    aspect-ratio: 1/1;
+
+}
